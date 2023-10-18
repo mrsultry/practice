@@ -1,16 +1,14 @@
-# This is a sample Python script.
+import turtle
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+turtle.showturtle()
+turtle.shape("turtle")
+turtle.color("green")
+turtle.shapesize(2)
+distance = 100
+steps = 6
+angle = 360/steps
+for i in range(steps):
+    turtle.forward(distance)
+    turtle.right(angle)
+turtle.done()
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
